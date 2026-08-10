@@ -4,13 +4,13 @@ import joblib as jb
 import pandas as pd
 import numpy as np
 # importer les encodeurs
-encoders = jb.load('encoders.joblib')
+encoders = jb.load('encoders (1).joblib')
 # importer les valeurs uniques
-uniques = jb.load('uniques.joblib')
+uniques = jb.load('uniques (1).joblib')
 # importer le normaliseur
-scaler = jb.load('scaler.joblib')
+scaler = jb.load('scaler (1).joblib')
 # importer le modèle
-xgb = jb.load('xgb_model.joblib')
+xgb = jb.load('xgb_model (1).joblib')
 
 # noms des classes
 clasnames = uniques[3]
