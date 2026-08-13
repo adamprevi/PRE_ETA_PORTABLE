@@ -42,7 +42,7 @@ encoders, uniques, scaler, xgb = charger_modeles()
 # NOMS DES CLASSES
 # ============================================================
 
-classnames = uniques[3]
+classnames = uniques[2]
 
 
 # ============================================================
