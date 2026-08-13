@@ -27,10 +27,10 @@ st.set_page_config(
 @st.cache_resource
 def charger_modeles():
 
-    encoders = jb.load("encoders (1).joblib")
-    uniques = jb.load("uniques (1).joblib")
-    scaler = jb.load("scaler (1).joblib")
-    xgb = jb.load("xgb_model (1).joblib")
+    encoders = jb.load("encoders_doc2.joblib")
+    uniques = jb.load("uniques_doc2.joblib")
+    scaler = jb.load("scaler_doc2.joblib")
+    xgb = jb.load("xgb_model_doc2.joblib")
 
     return encoders, uniques, scaler, xgb
 
@@ -42,7 +42,7 @@ encoders, uniques, scaler, xgb = charger_modeles()
 # NOMS DES CLASSES
 # ============================================================
 
-classnames = uniques[2]
+classnames = uniques[3]
 
 
 # ============================================================
