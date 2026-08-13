@@ -1,4 +1,3 @@
-gradio
 xgboost
 scikit-learn
 joblib
